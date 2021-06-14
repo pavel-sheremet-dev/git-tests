@@ -3,14 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
 </head>
 <body>
-    <h1>Hello World!!!</h1>
-    <p>I am testing some Git functions with terminal and Graзрic interface to understand how it works</p>
-    <p>Сегодня, 3 мая, я начал читать конспект для первых занятий по HTML и CSS и выполнять задания по автопроверке</p>
-    <p>Сегодня 06 мая, будет первый вебинар по технической части HTML+CSS</p>
+    
+    <form class="callback-form" action="#" method="GET" name="callback-form">
+        <label for="name" class="callback-label">Имя</label>
+        <input type="text" class="callback-input" id="name" name="username">
+        <label for="name" class="callback-label">Телефон</label>
+        <input type="tel" class="callback-input" id="tel" name="userphone">
+        <label class="callback-policy">
+            <input class="policy-agreement visually-hidden" type="checkbox" name="agreement" value="agree">
+            <svg class="checkbox-icon">
+                <use></use>
+            </svg>
+            Соглашаюсь на
+            <a class="policy-link" href="#">Условия обработки данных</a>
+        </label>
+    </form>
+
 </body>
 </html>

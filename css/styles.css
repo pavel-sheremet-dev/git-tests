@@ -1,0 +1,66 @@
+.callback-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  min-height: 200px;
+  padding: 40px 40px;
+  margin: 0 auto;
+  background-color: #bba2e2;
+}
+
+.callback-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.callback-input {
+  margin-bottom: 10px;
+  padding-left: 5px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 40px;
+  font-size: 20px;
+}
+
+.callback-policy {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.policy-link {
+  /* margin-left: 5px; */
+  /* можно &nbsp в html */
+  /* Можно как-то без флексов отцентрировать кастомный-чекбокс */
+}
+
+.checkbox-icon {
+  margin-right: 5px;
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.policy-agreement:checked + .checkbox-icon {
+  background-color: brown;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
